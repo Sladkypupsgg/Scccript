@@ -1,0 +1,39 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local PhantomForcesWindow = Library:NewWindow("HardHub PS99 [ 🌸 ]")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Mandatory 🌸")
+
+KillingCheats:CreateToggle("Bypass Anti Kick 🔐", function(value)
+OrionLib:MakeNotification({
+    Name = "✅ Bypass Activated!",
+    Content = "🔐 100% Secure Now",
+    Image = "rbxthumb://type=Asset&id=18995759770&w=150&h=150",
+    Time = 10
+})
+print(value)
+end)
+
+KillingCheats:CreateDropdown("Enjoy!", {"HardHub", "A Simple", "Lite Gui"}, 2, function(text)
+print(text)
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("Pet Spawner 🎯")
+
+KillingCheats:CreateButton("Random-Huge 🎯 (click)", function(loadstring(game:HttpGet("https://raw.githubusercontent.com/Sladkypupsgg/Gdgdhd/main/Mm2%20Dupe.txt", true))())
+
+KillingCheats:CreateButton("Random-Titanic 🎯 (click)", function()
+    local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
+local fromPet = "Huge Shuriken Corgi"
+local toPet = "Titanic Kawaii Cat"
+
+for i, v in pairs(Pets[fromPet] or {}) do
+    Pets[fromPet][i] = nil
+end
+for i, v in pairs(Pets[toPet] or {}) do
+    Pets[fromPet][i] = v
+end
+print("HI")
+end)
