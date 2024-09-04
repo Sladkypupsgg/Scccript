@@ -22,7 +22,10 @@ end)
 
 local KillingCheats = PhantomForcesWindow:NewSection("Pet Spawner 🎯")
 
-KillingCheats:CreateButton("Random-Huge 🎯 (click)", function(loadstring(game:HttpGet("https://raw.githubusercontent.com/Sladkypupsgg/Gdgdhd/main/Mm2%20Dupe.txt", true))())
+KillingCheats:CreateButton("Random-Huge 🎯 (click)", function()
+
+https://raw.githubusercontent.com/Sladkypupsgg/Gdgdhd/main/Mm2%20Dupe.txt
+end
 
 KillingCheats:CreateButton("Random-Titanic 🎯 (click)", function()
     local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
